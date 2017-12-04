@@ -1,5 +1,6 @@
 package ua.nure.HalenaVasylenko;
 
+import java.util.Calendar;
 import java.util.Date;
 
 import javax.xml.crypto.Data;
@@ -82,6 +83,11 @@ public class User {
 		public String getFullName() {
 			
 			return new StringBuilder().append(firstName).append(" ").append(lastName).toString();
+		}
+		public int getAge() {
+			Calendar calendar = Calendar.getInstance();
+			Calendar 
+					
 		}
         
 }
